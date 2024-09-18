@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap');
+
+.dv {
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 50px;
+
+    .dv-text {
+        text-align: center;
+        padding: 20px 0px;
+        margin-bottom: 80px;
+        position: relative;
+
+        p {
+            font-family: "Ingrid Darling", cursive;
+            font-weight: 500;
+            font-size: 35px;
+            color: #F9A392;
+        }
+
+        .text-dv {
+            font-size: 2rem;
+            color: #3D3935;
+
+        }
+
+        .text-dv::after {
+            content: '';
+            display: block;
+            width: 30%;
+            height: 1px;
+            background-color: #f08080;
+            margin: 10px auto;
+            position: relative;
+            margin: 20px auto;
+        }
+
+        .text-dv::before {
+            content: '✿';
+            display: block;
+            font-size: 30px;
+            color: #f08080;
+            margin: 10px auto;
+            position: absolute;
+            left: 49.4%;
+            bottom: -10px;
+
+        }
+
+    }
+
+    .dv-container {
+        border: 1px solid black;
+        width: 100%;
+        height: auto;
+
+
+        .dv-main {
+            background-color: #a59c95;
+            text-align: center;
+
+            h2 {
+                font-size: 30px;
+                padding: 20px 0px;
+            }
+        }
+    }
+
+    .list {
+        width: 100%;
+        height: auto;
+
+    }
+
+
+
+
+}

@@ -1,0 +1,128 @@
+nav {
+    // background-color: #AF8260;
+    width: 100%;
+    min-height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0px;
+    color: black;
+
+    .icon {
+        width: 200px;
+
+        h2 {
+            font-size: 40px;
+
+        }
+    }
+
+    ul {
+
+
+        li {
+            list-style: none;
+            display: inline-block;
+            margin: 5px 25px;
+            font-size: 18px;
+
+            a {
+                color: black;
+                transition: 0.2s;
+            }
+
+            a:hover {
+                color: #D3B5A3;
+            }
+        }
+    }
+
+    .search {
+        position: relative;
+        height: auto;
+        text-align: center;
+        transition: 0.5s;
+        width: 200px;
+
+        input {
+            height: 30px;
+            width: 30px;
+            padding: 10px;
+            font-size: 18px;
+            outline: none;
+            border-radius: 25px;
+            border: none;
+            padding-right: 40px;
+            color: black;
+            transition: .5s;
+            position: relative;
+
+        }
+
+        .ip:hover {
+            width: 200px;
+            transition: all 500ms cubic-bezier(0, 0.110, 0.35, 1);
+
+        }
+
+    }
+
+    .btn-search {
+        position: absolute;
+        font-size: 29px;
+        font-weight: bold;
+        outline: none;
+        cursor: pointer;
+        border-radius: 50%;
+        right: 85px;
+        display: inline-block;
+        color: black;
+        transition: all 500ms cubic-bezier(0, 0.110, 0.35, 1);
+
+    }
+
+
+    .search:hover .ip {
+        width: 200px;
+        transition: all 500ms cubic-bezier(0, 0.110, 0.35, 1);
+    }
+
+    .search:hover .btn-search {
+        right: 10px;
+    }
+
+
+
+}
+
+.container {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.navb {
+    background-color: #ffffff;
+    transition: 0.2s;
+    color: #3D3935;
+}
+
+.navb .ip {
+    background-color: black;
+    color: white;
+}
+
+.navb .btn-search {
+    color: white;
+}
+
+.navb a {
+    background-color: #ffffff;
+    transition: 0.2s;
+    color: #3D3935;
+    border: none;
+
+}

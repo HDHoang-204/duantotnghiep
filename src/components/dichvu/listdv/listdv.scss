@@ -1,0 +1,42 @@
+.mm {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin: 10px 10px;
+
+
+    .list {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid black;
+
+        .list-text {
+            width: 60%;
+            margin-right: 40px;
+            float: left;
+            line-height: 30px;
+
+            h2 {
+                color: #3D3935;
+            }
+
+            p {
+                color: #3D3935;
+                font-size: 13px;
+            }
+        }
+
+        .list-price {
+            line-height: 30px;
+
+            h2 {
+                color: #F9A392;
+                margin-bottom: 30px;
+            }
+
+            button {
+                cursor: pointer;
+            }
+        }
+    }
+}
