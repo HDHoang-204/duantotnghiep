@@ -14,7 +14,7 @@ function Bannerr() {
             <img src={banner2} alt="" />
             <div className='text-bn'>
                 <h2 data-aos="fade-up">Lộ trình chăm sóc da 7 bước</h2>
-                <Link className='btn' data-aos="fade-up">Xem chi tiết</Link>
+                <Link to='/chitiet'className='btn' data-aos="fade-up">Xem chi tiết</Link>
             </div>
         </div>
     )

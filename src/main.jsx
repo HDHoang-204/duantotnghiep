@@ -10,6 +10,7 @@ import Home from './components/home.jsx';
 import About from './components/about.jsx';
 import GioiThieu from './components/gt.jsx';
 import LienHe from './components/lienhe.jsx';
+import DVCT from './components/dichvu/chitiet/dvct.jsx';
 
 
 const router = createBrowserRouter([
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: 'lienhe',
         element: <LienHe />
+      },
+      {
+        path: 'chitiet',
+        element: <DVCT />
       }
 
     ]

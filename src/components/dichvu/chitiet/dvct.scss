@@ -1,0 +1,41 @@
+.titleChiTiet {
+    text-align: center;
+}
+.buoc {
+    display: flex;
+    width: 900px;
+    margin-left: 15%;
+    .mota {
+        p{
+            width: 500px;
+        }
+        .thutu {
+            font-weight: 500;
+            font-size: 1.5vw;
+        }
+    }
+    .img img{
+        width: 400px;
+        height: 200px;
+        margin-left: 50px;
+    }
+}
+.buoc1 {
+    display: flex;
+    width: 900px;
+    margin-left: 15%;
+    .mota1 {
+        margin-left: 100px;
+        p{
+            width: 500px;
+        }
+        .thutu1 {
+            font-weight: 500;
+            font-size: 1.5vw;
+        }
+    }
+    .img1 img{
+        width: 400px;
+        height: 200px;
+    }
+}
